@@ -182,18 +182,20 @@ body {
     height: 100%;
     margin-left: 400px;
     margin-right: 400px;
-    display:    ;
+    display: flex;
+    background-color: blueviolet;
     justify-content: center;
-    flex: 1;
 }
 
 .main-product__category-details {
-    flex: 1;
-    display: flex ;
+    flex:1;
+    border: #ffffff solid 1px;
+    display: grid;
+    background-color: greenyellow;
 }
 
 .main-product__category-images img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .main-product__category-price {
