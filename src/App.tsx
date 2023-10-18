@@ -5,6 +5,7 @@ import Input from "./components/Input";
 import Item from "./components/Item";
 import Text from "./components/Text";
 import Title from "./components/Title";
+import Vinh from "./components/Vinh";
 
 const itemContent: string[] = [
   "Buy a new gaming laptop11",
@@ -16,6 +17,7 @@ const itemContent: string[] = [
 function App() {
   return (
     <div className="todo">
+      {/* <Vinh /> */}
       <Title></Title>
 
       {/* Input Search */}
