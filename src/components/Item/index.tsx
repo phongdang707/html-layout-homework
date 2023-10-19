@@ -1,13 +1,13 @@
+import "./index.css"
+
 type ItemPropsAhihi = {
   label: string;
-  hiKhoa?: number;
-};
+}
 
 const Item = (props: ItemPropsAhihi) => {
   return (
-    <div>
+    <div className={"item-label"}>
       {props.label}
-      <p>hi{props.hiKhoa}</p>
     </div>
   );
 };

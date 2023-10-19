@@ -5,13 +5,14 @@ import Input from "./components/Input";
 import Item from "./components/Item";
 import Text from "./components/Text";
 import Title from "./components/Title";
-import Vinh from "./components/Vinh";
+// import AddIcon from '@mui/icons-material/Add';
+// import Vinh from "./components/Vinh";
 
 const itemContent: string[] = [
-  "Buy a new gaming laptop11",
-  "Complete task11",
-  "Swim11",
-  "Do exercise11",
+  "Buy a new gaming laptop",
+  "Complete task",
+  "Swim",
+  "Do exercise",
 ];
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
       </div>
 
       {itemContent.map((each) => {
-        return <Item label={each} hiKhoa={123} />;
+        return <Item label={each} />;
       })}
 
       {/* Content */}

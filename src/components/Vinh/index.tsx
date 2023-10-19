@@ -7,7 +7,7 @@ import { OutlinedInput } from "@mui/material";
 const Vinh = () => {
   return (
     <div>
-      Vinh Bui
+      c3
       <AcUnitIcon></AcUnitIcon>
       <AddLinkIcon />
       <Button variant="outlined" startIcon={<DeleteIcon />}>
